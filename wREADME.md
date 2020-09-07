@@ -1,4 +1,5 @@
 # TryHackMe-Steel-MountainWhat in the world is Unquoted Service Path?
+#THIS IS A PAGE FOR MY PERSONAL NOTES ONLY.
 When a service is created whose executable path contains spaces and isn’t enclosed within quotes, leads to a vulnerability known as Unquoted Service Path which allows a user to gain SYSTEM privileges (only if the vulnerable service is running with SYSTEM privilege level which most of the time it is).
 In Windows, if the service is not enclosed within quotes and is having spaces, it would handle the space as a break and pass the rest of the service path as an argument.
 
